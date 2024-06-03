@@ -1,11 +1,15 @@
+import React from "react";
 import "./App.css";
+import ChartComponent from "./components/ChartComponent";
+import DataTable from "./components/DataTable";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h3>Good</h3>
-      </header>
+      <Navbar />
+      <ChartComponent />
+      <DataTable />
     </div>
   );
 }
