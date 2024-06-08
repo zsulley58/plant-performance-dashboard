@@ -1,15 +1,36 @@
 .App {
-  font-family: "Arial", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 nav {
-  background-color: #004d99; /* A nice blue shade */
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
+  background-color: #fff;
+  color: #0022ff;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin: 10px auto 0;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 2px solid #abaaaa;
+}
+
+nav .logo-container {
+  margin-left: 10px;
+  flex: 0 0 auto; /* Prevents the logo container from growing */
+}
+
+nav img {
+  width: 100px;
+  height: 70px;
+}
+
+nav h1 {
+  flex-grow: 1; /* Allows the h1 to take up remaining space */
+  text-align: center; /* Centers the text within the h1 element */
 }
 
 h1 {
