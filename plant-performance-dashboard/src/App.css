@@ -58,3 +58,55 @@ td {
 th {
   background-color: #f2f2f2;
 }
+
+/* New Features Styles */
+.navbar,
+.sidebar,
+.main-content {
+  padding: 10px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  float: left;
+  background-color: #fff;
+  color: #0022ff;
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px auto 0;
+  margin-left: 25px;
+  margin-top: 0;
+  border-radius: 0 0 10px 0;
+  border-right: 2px solid #abaaaa;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+.card p {
+  color: #666;
+  font-size: 16px;
+}
